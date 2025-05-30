@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+    border: black solid 0;
+    display: flex;
+    width: 600px;
+    height: 400px;
+    
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+
+
+}
+.flex-item{
+    /* height: 100px; */
+    width: 100px;
+}
+.fl1{
+    background-color: rgb(157, 182, 235);
+    order: 2;
+    /* flex-grow admite:
+    -numeros enteros 
+    -numeros decimales
+    no admite negativos 0% */
+    flex-grow: 0.5;
+}
+
+
+.fl2{
+    background-color: rgb(86, 145, 221);
+    order: 3;
+    /* flex-grow admite:
+    -numeros enteros 
+    -numeros decimales
+    no admite negativos 0% */
+    flex-grow: 1;
+}
+
+.fl3{
+    background-color: rgb(81, 159, 211);
+    order: 0;
+    flex-grow: 2;
+}
+.fl4{
+    background-color: rgb(173, 221, 224);
+    order: 0;
+    flex-grow: 0.3;
+}
+.fl5{
+    background-color: rgb(152, 129, 235);
+    order: 0;
+    flex-grow: 1;
+}
